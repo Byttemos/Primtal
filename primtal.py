@@ -1,9 +1,7 @@
-n = 2
-while (n != 300):
-
-    for i in range(2,n):
-        if(n % i != 0):
-            print(n)
-        else:
-            break
+n = 1
+for i in range(1, 51):
+    if(n % i != 0):
+        Print(n)
+        n = n + 1
+    else:
         n = n + 1
